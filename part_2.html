@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style_2.css">
+    <title>МОДЕЛИРОВАНИЕ СЛУЧАЙНЫХ ВЕЛИЧИН</title>
+</head>
+<body>
+ <div>
+     <h1>Тестирование по гистограмме</h1>
+    <div>
+        <h3>Метод серединных квадратов</h3>
+        <div>
+            <h2>Показательное распределение</h2>
+            <canvas id="myChart1"></canvas>
+          </div>
+          <div >
+            <h2>Нормальное распределение</h2>
+            <canvas id="myChart2"></canvas>
+          </div>
+    </div>
+    
+    <div>
+        <h3>Метод иррационального числа</h3>
+        <div >
+            <h2>Показательное распределение</h2>
+            <canvas id="myChart3"></canvas>
+          </div>
+          <div >
+            <h2>Нормальное распределение</h2>
+            <canvas id="myChart4"></canvas>
+          </div>
+    </div>
+     
+    <div>
+        <h3> Конгруэнтный метод</h3>
+        <div >
+            <h2>Показательное распределение</h2>
+            <canvas id="myChart5"></canvas>
+          </div>
+          <div >
+            <h2>Нормальное распределение</h2>
+            <canvas id="myChart6"></canvas>
+          </div>
+    </div>
+      
+ </div>
+ <div>
+    <h1>Тестирование по критериям согласия</h1>
+    <div>
+        <h3>Метод серединных квадратов</h3>
+        <div >
+            <h2>Показательное распределение</h2>
+            <canvas id="myChart7"></canvas>
+            <div class="text">
+                <p>
+                    <span>Критерий согласия Колмогорова: p(λ) = </span>
+                    <span id="1_metod1" ></span>
+                    <span>%</span>
+                </p>
+                <p>
+                    <span>Критерий согласия Пирсона: гипотеза верна с вероятностью не менее, чем p = </span>
+                    <span id="1_metod2" ></span>
+                    <span>%</span>
+                </p>
+                <p>
+                    <span>Элементы последовательности независимы с вероятностью  ≥ p = </span>
+                    <span id="1_metod3" ></span>
+                    <span>%</span>
+                </p>
+            </div>
+          </div>
+          <div >
+            <h2>Нормальное распределение</h2>
+            <canvas id="myChart8"></canvas>
+            <div class="text">
+                <p>
+                    <span>Критерий согласия Колмогорова: p(λ) = </span>
+                    <span id="2_metod1" ></span>
+                    <span>%</span>
+                </p>
+                <p>
+                    <span>Критерий согласия Пирсона: гипотеза верна с вероятностью не менее, чем p = </span>
+                    <span id="2_metod2" ></span>
+                    <span>%</span>
+                </p>
+                <p>
+                    <span>Элементы последовательности независимы с вероятностью  ≥ p = </span>
+                    <span id="2_metod3" ></span>
+                    <span>%</span>
+                </p>
+            </div>
+          </div>
+    </div>
+    <div>
+        <h3>Метод иррационального числа</h3>
+        <div>
+            <h2>Показательное распределение</h2>
+            <canvas id="myChart9"></canvas>
+            <div class="text">
+                <p>
+                    <span>Критерий согласия Колмогорова: p(λ) = </span>
+                    <span id="3_metod1" ></span>
+                    <span>%</span>
+                </p>
+                <p>
+                    <span>Критерий согласия Пирсона: гипотеза верна с вероятностью не менее, чем p = </span>
+                    <span id="3_metod2" ></span>
+                    <span>%</span>
+                </p>
+                <p>
+                    <span>Элементы последовательности независимы с вероятностью  ≥ p = </span>
+                    <span id="3_metod3" ></span>
+                    <span>%</span>
+                </p>
+            </div>
+          </div>
+          <div >
+            <h2>Нормальное распределение</h2>
+            <canvas id="myChart10"></canvas>
+            <div class="text">
+                <p>
+                    <span>Критерий согласия Колмогорова: p(λ) = </span>
+                    <span id="4_metod1" ></span>
+                    <span>%</span>
+                </p>
+                <p>
+                    <span>Критерий согласия Пирсона: гипотеза верна с вероятностью не менее, чем p = </span>
+                    <span id="4_metod2" ></span>
+                    <span>%</span>
+                </p>
+                <p>
+                    <span>Элементы последовательности независимы с вероятностью  ≥ p = </span>
+                    <span id="4_metod3" ></span>
+                    <span>%</span>
+                </p>
+            </div>
+          </div>
+    </div>
+    <div>
+        <h3>Конгруэнтный метод</h3>
+        <div >
+            <h2>Показательное распределение</h2>
+            <canvas id="myChart11"></canvas>
+            <div class="text">
+                <p>
+                    <span>Критерий согласия Колмогорова: p(λ) = </span>
+                    <span id="5_metod1" ></span>
+                    <span>%</span>
+                </p>
+                <p>
+                    <span>Критерий согласия Пирсона: гипотеза верна с вероятностью не менее, чем p = </span>
+                    <span id="5_metod2" ></span>
+                    <span>%</span>
+                </p>
+                <p>
+                    <span>Элементы последовательности независимы с вероятностью  ≥ p = </span>
+                    <span id="5_metod3" ></span>
+                    <span>%</span>
+                </p>
+            </div>
+          </div>
+          <div >
+            <h2>Нормальное распределение</h2>
+            <canvas id="myChart12"></canvas>
+            <div class="text">
+                <p>
+                    <span>Критерий согласия Колмогорова: p(λ) = </span>
+                    <span id="6_metod1" ></span>
+                    <span>%</span>
+                </p>
+                <p>
+                    <span>Критерий согласия Пирсона: гипотеза верна с вероятностью не менее, чем p = </span>
+                    <span id="6_metod2" ></span>
+                    <span>%</span>
+                </p>
+                <p>
+                    <span>Элементы последовательности независимы с вероятностью  ≥ p = </span>
+                    <span id="6_metod3" ></span>
+                    <span>%</span>
+                </p>
+            </div>
+          </div>
+    </div>
+ </div>
+ 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.js"></script>
+<script src="./part_2.js"></script>
+</body>
+</html>

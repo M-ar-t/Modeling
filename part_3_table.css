@@ -1,0 +1,131 @@
+*{
+    background-color: white
+}
+body{   
+    background-color: white
+}
+.myselect{
+    padding: 0px;
+    margin: 10px 0px 10px 5px;
+    width: auto;
+    height: 30px;
+    border-radius: 0px;
+    border-color: rgba(154, 154, 154, 0.47);
+}
+option{
+    color: rgb(67, 69, 71);
+    
+}
+.myinput{
+    padding: 5px;
+    margin: 10px 0px 10px 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 0px;
+    border-width: 0.1px;
+    border-color: rgba(154, 154, 154, 0.47);
+}
+.mybutton, .mybutton_itog {
+    background-color: #5cad5fe4; /* Green */
+    margin: 10px 0px 10px 5px;
+    border: none;
+    color: white;
+    height: 30px;
+    padding: 0px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+.mybutton_itog{
+    visibility: hidden;
+}
+.mybutton:hover, .mybutton_itog:hover{
+    background-color:#437e45e4; /* Green */
+    margin: 10px 0px 10px 5px;
+    border: none;
+    color: white;
+    height: 30px;
+    padding: 0px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#div_itog {
+    display: none;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+  }
+  
+#div_itog.open {
+    display: block;
+    z-index:100 ;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+ #div_itog{
+     margin: 30px;
+     
+ }
+ #table1{
+    border-style: solid;
+    border-color: #5cad5fe4;
+    border-width: 3px;
+ }
+ #table.open{
+    display: block;
+    
+ }
+ #table{
+    display: none;
+    
+ }
+span.span_N{
+     margin: 0px 15px 0px 15px;
+ }
+input.inp_N{
+ padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 0px;
+    border-width: 0.1px;
+    border-color: rgba(154, 154, 154, 0.47);
+
+ }
+ #div_N.close{
+    display: none;
+ }
+ button.raspredel{
+    background-color: white;
+    margin: 0px 0px 10px 5px;
+    border-radius: 0px;
+    border-width: 0.1px;
+    border-color: rgba(154, 154, 154, 0.47);
+    color: rgb(67, 69, 71);
+   
+    padding: 0px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+ }
+ p.p_add{
+    padding: 5px;
+    margin: 10px 0px 10px 5px;
+    
+ }
+ .span_add{
+    border-radius: 0px;
+    border-width: 0.1px;
+    border-color: rgba(154, 154, 154, 0.47);
+ }

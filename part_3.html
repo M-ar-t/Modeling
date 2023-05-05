@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style_3.css">
+    <title>МОДЕЛИРОВАНИЕ СЛУЧАЙНЫХ ПРОЦЕССОВ</title>
+</head>
+<body>
+  <div class="main_div">
+    <div class="func">
+      <h3>Корреляционная функция процесса</h3>
+      <canvas id="myChart1"></canvas>
+    </div>
+    <div>
+      <h3>Выборка x<sub>i</sub></h3>
+      <canvas id="myChart2"></canvas>
+      </div>
+    <div>
+      <h3>Выборка y<sub>i</sub></h3>
+      <canvas id="myChart3"></canvas>
+    </div>
+    <div>
+      <h3>Функция распределения F<sub>x</sub><sup>ст</sup>(x<sub>k</sub>)</h3>
+      <canvas id="myChart4"></canvas>
+    </div>
+    <div>
+      <h3>Функция распределения F<sub>y</sub><sup>ст</sup>(y<sub>k</sub>)</h3>
+      <canvas id="myChart5"></canvas>
+    </div>
+    <div class="text">
+      <p>
+          <span style="text-decoration: underline;">Критерий согласия Смирнова<br/></span><span>Cтатистическая гипотеза верна с вероятностью не менее, чем p =  </span>
+          <span id="metod1" ></span>
+          <span>%</span>
+      </p>
+      <p>
+        <span style="text-decoration: underline;">Критерий согласия Стьюдента<br/></span><span>Cтатистическая гипотеза верна с вероятностью не менее, чем p =  </span>
+          <span id="metod2" ></span>
+          <span>%</span>
+      </p>
+      <p>
+        <span style="text-decoration: underline;">Критерий согласия Фишера<br/></span><span>Cтатистическая гипотеза верна с вероятностью не менее, чем p =  </span>
+          <span id="metod3" ></span>
+          <span>%</span>
+      </p>
+  </div>
+   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.js"></script>
+  <script src="./part_3.js"></script>
+  </div>
+  
+</body>
+</html>

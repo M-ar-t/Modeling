@@ -1,0 +1,162 @@
+/* inter-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    color: white;
+
+}
+.wrapper-main{
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, 
+    #15153d  10%, #232348 30%, #a9bebe 95%);
+}
+
+.img-div{
+    top:0;
+    right: 0;
+    z-index: 2;
+    position: absolute;
+}
+.header-div{
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 41px;
+    max-width: 600px;
+    font-weight: 700;
+    font-size: 55px;
+}
+.part-one{
+    padding: 1px 15px;
+    margin-left: 100px;
+    margin-bottom: 17px;
+    background-color: #4848825b;
+    border-radius: 10px;
+    max-width: 600px;
+}
+.part-one_even{
+    margin-left: 170px;
+}
+
+.part-one__header-text{
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+.part-one__link-text{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(162, 162, 162);
+    text-transform: uppercase;
+}
+ul li{
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1430px) {
+   .header-div{
+        max-width: 200px;
+   }
+}
+@media screen and (max-width: 1360px) {
+    .part-one{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .img-div img{
+        width: 80%;
+
+    }
+    .img-div{
+        text-align: end;
+    }
+}
+@media screen and (max-width: 1046px) {
+    .img-div img{
+        width: 60%;
+
+    }
+    .img-div{
+        text-align: end;
+    }
+}
+@media screen and (max-width: 867px) {
+    .img-div{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header-div{
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-bottom: 41px;
+    }
+    .part-one{
+        padding: 1px 15px;
+        margin-left: 50px;
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .header-div{
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    .part-one{
+        padding: 1px 15px;
+        margin-left: 20px;
+        max-width: 280px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .header-div{
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+        font-size: 2em;
+    }
+    .part-one{
+        padding: 1px 15px;
+        margin-left: 20px;
+        max-width: 230px;
+    }
+    .part-one__header-text{
+        font-size: 0.7em;
+        
+    }
+    .part-one__link-text{
+        font-size: 0.7em;
+    }
+}
+
+
+
+
