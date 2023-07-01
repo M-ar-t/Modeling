@@ -17,7 +17,7 @@ h1{
     color: white; 
     text-align: center;
     font-size: 22px; 
-    margin: 20px 0px 0px 0px; 
+    margin: 20px auto 0px; 
     padding: 0;
 }
 h3{
@@ -60,7 +60,5 @@ canvas{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 800px;
-    max-width: 800px;
-    max-height: 800px;
+    width: 80%;
 }
